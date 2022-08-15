@@ -133,6 +133,29 @@ main p {
 
     
 }
+.tocadiscos{
+    margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}  
+
+.toca{
+    animation-name: toca;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+ @keyframes toca{
+    from{
+        transform: scale(0);
+
+    }
+    to{
+        transform: scale(1);
+
+    }
+ }
+
 
 
 /* estilo de compras */
